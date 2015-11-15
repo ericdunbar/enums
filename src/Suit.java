@@ -7,13 +7,13 @@ public enum Suit {
     HEARTS("H"),
     SPADES("S");
 
-    final String st;
+    final String theSuit;
 
     Suit(String st) {
-        this.st = st;
+        this.theSuit = st;
     }
 
     public String getString() {
-        return st;
+        return theSuit;
     }
 }
