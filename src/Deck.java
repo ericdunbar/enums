@@ -12,7 +12,7 @@ public class Deck {
 		if (this.deck.size() == 0) {
 			return null;
 		}
-		System.out.print(deck.size() + ", ");
+		System.out.print(deck.size() + ",yyy ");
 		Card card = deck.get(0);
 		deck.remove(0);
 		System.out.print(deck.size() + " ");
